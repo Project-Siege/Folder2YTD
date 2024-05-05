@@ -1,29 +1,45 @@
 # Folder2YTD
 
-Added cmd argument to convert folder to ytd. (.\Folder2YTD.exe -folder "" -file "")
+Folder2YTD is an enhanced tool that allows for the automated conversion of image folders into `.ytd` files directly from the file browser. This version builds upon the original by introducing command-line capabilities that integrate seamlessly with file management tools like OneCommander.
 
-Create GTA V .YTD files and convert non-DDS files to DDS using folders.
+## New Features
 
-![image](https://user-images.githubusercontent.com/20731612/194188836-075a3d1f-104d-4abb-8651-41297bb2e7ae.png)
+- **Command-Line Interface (CLI) Support**: Folder2YTD now supports command-line arguments, enabling automation and integration with other software.
+- **Integration with OneCommander's File Automator**: Users can now automate the conversion of folders to `.ytd` files directly within OneCommander, enhancing workflow efficiency.
+
+## Getting Started
+
+### Prerequisites
+
+- Ensure that Folder2YTD.exe is either added to your system's PATH or accessible from the directory where you intend to run the script.
+- OneCommander installed with File Automator feature.
+
+### Installation
+
+1. Clone the repository or download the latest release.
+2. If desired, add the Folder2YTD executable's directory to your system's PATH:
+   
+   Alternatively, you can directly reference the executable's path in the automation scripts.
+
+### Usage
+
+#### Automating with OneCommander
+
+To use Folder2YTD with OneCommander's File Automator:
+
+1. Open OneCommander and navigate to the File Automator section.
+2. Create a new automation script with the following command: Folder2YTD.exe -folder "$SourceFile" -file "$SourceFile"
+
+      Replace `Folder2YTD.exe` with the full path to the executable if not added to PATH.
+
+#### Command-Line Usage
+
+You can also use Folder2YTD directly from the command line: Folder2YTD.exe -folder "path_to_folder" -file "output_path"
 
 
-## Features:
-- Quality settings.
-- Transparency detection for a proper compression.
-- Converts non-power-of-two images to power-of-two compliant.
-- Mipmap autogen.
-- Drag and drop folders.
-- Support for PNG, DDS, TGA, JPG, JPEG, TIFF, TIF and WEBP formats.
-- Dark/Light mode switch.
-- Autoupdate.
+## Benefits
 
+- **Streamlined Workflow**: Automate the conversion process directly within the file browser, reducing manual steps and saving time.
+- **Flexibility**: Works with individual folders or multiple selections, providing versatility in how you manage file conversions.
+- **Integration**: Seamlessly integrates into existing file management workflows with minimal setup.
 
-
-
-## Usage:
-
-
-
-
-## How to Build:
-Use Visual Studio Community 2022 and .NET 7
