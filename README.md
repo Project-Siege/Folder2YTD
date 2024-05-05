@@ -16,7 +16,7 @@ Folder2YTD is an enhanced tool that allows for the automated conversion of image
 
 ### Installation
 
-1. Clone the repository or download the latest release.
+1. Clone the repository and build following the original build steps. I will update the release with a built version soon!
 2. If desired, add the Folder2YTD executable's directory to your system's PATH:
    
    Alternatively, you can directly reference the executable's path in the automation scripts.
