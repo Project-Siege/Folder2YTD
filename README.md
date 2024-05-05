@@ -16,7 +16,7 @@
 
 ### Installation
 
-1. Clone the repository and build following the original build steps. I will update the release with a built version soon!
+1.  Download from the latest release or Clone the repository and build following the original build steps. 
 2. If desired, add the Folder2YTD executable's directory to your system's PATH:
    
    Alternatively, you can directly reference the executable's path in the automation scripts.
