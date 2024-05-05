@@ -1,6 +1,6 @@
 # Folder2YTD
 
-Folder2YTD is an enhanced tool that allows for the automated conversion of image folders into `.ytd` files directly from the file browser. This version builds upon the original by introducing command-line capabilities that integrate seamlessly with file management tools like OneCommander.
+ This version builds upon the original by introducing command-line capabilities that integrate seamlessly with file management tools like OneCommander.
 
 ## New Features
 
